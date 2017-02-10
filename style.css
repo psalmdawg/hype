@@ -1,0 +1,305 @@
+body{
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+}
+
+.header{
+  width: 100%;
+  background: grey;
+  /*height: 240px;*/
+}
+
+.nav{
+  font-weight: bold;
+  height: 55px;
+  /*padding: 20px;*/
+  line-height: 55px;
+  background: black;
+  color: white;
+  font-size:  12px;
+  background: #181A18;
+}
+.inner-nav{
+  width: 85%;
+  margin: 0 auto;
+}
+.orange{
+  color: orange;
+}
+.navy{
+  background: navy;
+}
+.maroon{
+  background: maroon;
+}
+.team-color-span{
+  /*min-height: 20px;
+  min-width: 20px;*/
+  /*border-radius: 100%*/
+
+}
+.team-color{
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  border: orange solid 2px;
+  vertical-align: sub;
+}
+
+.team-title-match{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: lightgrey;
+
+}
+.team-title-match span{
+  margin: 0 10px;
+
+}
+
+.nav li{
+  /*margin-top: 10px;*/
+  display: inline-block;
+  /*float: left;*/
+}
+
+.nav-right{
+  display: inline-block;
+  width: 27%;
+}
+.nav-left{
+  display: inline-block;
+  width: 67%;
+}
+.nav-left li{
+  margin-right: 4%;
+}
+.nav-right li{
+   margin-left: 15%;
+}
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.li-register{
+  background: #EBA33F;
+  margin-left: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.li-register a{
+  /*text-decoration: none;*/
+  color: white;
+}
+a:visited {
+  text-decoration: none; color: white;
+}
+a:hover {
+  text-decoration: none; color: white;
+}
+a:focus {
+  text-decoration: none; color: white;
+}
+a:hover, a:active {
+  text-decoration: none; color: white;
+}
+
+.section-one{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.share-inner{
+  color: white;
+  font-size: 10px;
+  width: 85%;
+  margin: 0 auto;
+  /*margin-top:10px;*/
+  padding: 7px;
+}
+
+.share-inner img{
+  width: 20px;
+}
+
+.game-scroll-bar{
+  min-height: 70px;
+  background: #2A2B2A;
+  /*padding-top: 5px;*/
+  color: white;
+  border-bottom: orange 1px solid;
+}
+
+.current-game{
+  background: black;
+  height: 60px;
+  width: 17%;
+  margin: 5px 1% 0px 5px;
+  display: inline-block;
+  text-align: center;
+}
+.current-game:hover{
+  outline: orange 1px solid;
+}
+.main{
+  color: white;
+  font-weight: bold;
+  padding: 100px;
+  font-size: 20px;
+}
+
+.arrow{
+  line-height: 70px;
+}
+
+.arrow:hover{
+  color: orange;
+}
+
+.lh-70{
+  line-height: 70px;
+}
+
+.game-dropper{
+  text-align: center;
+  /*margin-left: 1%;*/
+}
+.DIB{
+  display: inline-block;
+}
+.game-scroll-bar a{
+
+}
+.game-scroll-bar select{
+  /*background:url("/down-arrow.png");*/
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.underscorer{
+  border-top: white 1px solid;
+  width: 30px;
+  margin: 0px auto;
+}
+.date{
+  font-size: 10px;
+  /*border-top: white 1px solid;*/
+  min-width: 30px;
+  margin: 0px auto;
+}
+.round{
+  font-size: 9px;
+  color: lightgrey;
+  /*border-top: white 1px solid;*/
+  min-width: 30px;
+  margin: 0px auto;
+}
+
+.how-to-use-site{
+  font-size: 10px;
+  float: right;
+  margin-right: 20px;
+}
+
+.how-to-use-site a{
+  color: orange;
+  cursor: help;
+}
+
+.main-info-container{
+  width: 85%;
+  margin: 0 auto;
+  /*background: darkgrey;*/
+  height: 100vh;
+}
+
+.paired-teams-jumbo{
+  /*background: white;*/
+  height:  200px;
+  /*padding: 0;*/
+}
+
+.paired-teams-title{
+  height: 20px;
+  padding-left: 50px;
+  line-height: 20px;
+  font-size: 10px;
+  background: black;
+    background: -webkit-linear-gradient(grey, black);
+    background: -o-linear-gradient(grey, black);
+    background: -moz-linear-gradient(grey, black);
+    background: linear-gradient(grey, black);
+}
+.border-left{
+  border-left: black 1px solid;
+  /*height: 20px;*/
+}
+.border-bottom{
+  border-bottom: 1px solid black;
+}
+.no-padding{
+  padding: 0;
+}
+
+.paired-teams-info{
+  line-height: 50px;
+  background: #2A2B2A;
+  height: 50px;
+  min-width: 100%;
+  /*display: inline-block;*/
+}
+
+.paired-teams-info span{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.team-name-container{
+  /*font-weight: bold;*/
+  /*float: left*/
+}
+
+.team-info-color{
+  /*background: darkgrey;*/
+  /*min-height: 100%;*/
+  width: 10px;
+  height: 50px;
+  /*display: inline-block;*/
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+.team-info-color-container{
+  background: darkgrey;
+}
+
+.team-name{
+  /*display: inline-block;*/
+  /*margin-left: 10px;*/
+}
+
+.no-margin{
+  margin: 0;
+}
+.bold{
+  font-weight: bold;
+}
+.fs30{
+  font-size: 30px;
+}
