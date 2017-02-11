@@ -1,5 +1,6 @@
 body{
-  font-family: 'Arial', sans-serif;
+  /*font-family: 'Arial', sans-serif;*/
+  font-family: 'Palanquin', sans-serif;
   box-sizing: border-box;
   background: #0d0d0d;
   color: white;
@@ -118,7 +119,7 @@ ul{
 }
 .current-game-inner{
   /*padding: 0;*/
-  padding: 15px;
+  padding: 7%;
 }
 .current-game-inner-title{
   font-size: 8px;
@@ -169,6 +170,7 @@ a:hover, a:active {
   /*padding-top: 5px;*/
   color: white;
   border-bottom: #fbaa44  1px solid;
+  /*margin-left: 1%;*/
 }
 
 .current-game{
@@ -178,7 +180,7 @@ a:hover, a:active {
   height: 65px;
   width: 17%;
   padding: 0;
-  margin: 10px 1% 0px 5px;
+  margin: 10px 1% 0px 0;
   display: inline-block;
   text-align: left;
   vertical-align: middle;
@@ -212,15 +214,17 @@ a:hover, a:active {
 .current-game-container{
   /*line-height: 60px;
   vertical-align: middle;*/
+  margin-left: -1%;
 }
 
 .current-game-inner-stats span{
-  margin-left: 12px;
+  margin-left: 3%;
 }
 
 .arrow{
   /*line-height: 20px;*/
   vertical-align: sub;
+  /*margin-left: -5%;*/
 
 }
 
@@ -234,7 +238,12 @@ a:hover, a:active {
 
 .game-dropper{
   text-align: center;
-  /*margin-left: 1%;*/
+  padding-left: 1%;
+  line-height: 90px;
+}
+.game-dropper img{
+  width: 10px;
+
 }
 .DIB{
   display: inline-block;
@@ -243,18 +252,21 @@ a:hover, a:active {
 
 }
 .game-scroll-bar select{
-  /*background:url("/down-arrow.png");*/
+  background-image: url(white-arrow-down.png)right #BADA55;
   color: white;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 12px;
   border: none;
   box-shadow: none;
   background-color: transparent;
-  background-image: none;
+  /*background-image: none;*/
   -webkit-appearance: none;
      -moz-appearance: none;
-          appearance: none;
+          appearance: none;*/
+
 }
+
+
 .underscorer{
   border-top: white 1px solid;
   width: 30px;
@@ -390,14 +402,14 @@ a:hover, a:active {
 .team-name{
   /*display: inline-block;*/
   /*margin-top: 30px;*/
-  font-size: 14px;
+  font-size: 15px;
   padding-top: 7px;
-  font-weight: bolder;
+  font-weight: bold;
   /*margin-left: 10px;*/
 }
 
 .power-ranking-sub{
-  font-size: 11px;
+  font-size: 10px;
   margin-top: 2px;
   font-weight: lighter;
 
@@ -405,6 +417,7 @@ a:hover, a:active {
 }
 .power-ranking-sub span{
   font-weight: bolder;
+  margin-left: 1%;
   font-size: 14px;
 }
 .w85{
